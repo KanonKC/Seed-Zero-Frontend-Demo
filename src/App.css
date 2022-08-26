@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.led{
+  width: 350px;
+  margin: 50px auto;
+}
+
+.led-light{
+  background-color: rgb(128, 0, 0);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 15px solid rgb(0, 0, 0);
+}
+
+.led-light-glowing{
+  background-color: red;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 15px solid black;
+  box-shadow: 0 0 100px red;
+}
+
+.switch-btn{
+  font-size: 36px;
+}
