@@ -6,9 +6,8 @@ export async function getDataById(userid){
 }
 
 export async function updateLEDById(userid,value){
-    console.log("Update LED")
-    const result = await axios.put(`https://zeedzero-hardware.herokuapp.com/users/${userid}/update`,{
+    const response = await axios.put(`https://zeedzero-hardware.herokuapp.com/users/${userid}/update`,{
         'led': Number(value)
     })
-    return result
+    return response
 }

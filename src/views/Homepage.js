@@ -29,7 +29,7 @@ const Homepage = () => {
   return (
     <div style={{
       backgroundColor: `rgb(${LDRToColor},${LDRToColor},${LDRToColor})`,
-      padding: "100px 0"
+      padding: "47px 0"
     }}>
       <div className='led-controller'>
         <LED isActive={isActive}/>
